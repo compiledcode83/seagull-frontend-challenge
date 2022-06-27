@@ -1,0 +1,13 @@
+{
+	"name": "frontend-boilerplate-react-nextjs",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "cd app-frontend && npm run dev",
+		"build": "cd app-frontend && npm install && npm run build",
+		"start": "cd app-frontend && npm run start",
+		"test": "cypress run"
+	},
+	"devDependencies": {
+		"cypress": "^9.5.3"
+	}
+}
